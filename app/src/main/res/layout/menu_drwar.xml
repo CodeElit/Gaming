@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:background="#414141"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    app:layout_constraintBottom_toTopOf="@+id/about_menu"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"/>
+
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:id="@+id/about_menu"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.097">
+
+                    <ImageView
+                        android:padding="12dp"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/info"
+                        android:scaleType="centerCrop"
+                        android:layout_marginStart="20dp"/>
+
+                    <TextView
+                        android:textSize="15sp"
+                        android:fontFamily="@font/mm"
+                        android:gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="About"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="15dp"
+                        style="@style/TextAppearance.AppCompat.Title"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:id="@+id/share_menu"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/about_menu"
+                    app:layout_constraintVertical_bias="0">
+
+                    <ImageView
+                        android:padding="12dp"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/share"
+                        android:scaleType="centerCrop"
+                        android:layout_marginStart="20dp"/>
+
+                    <TextView
+                        android:textSize="15sp"
+                        android:fontFamily="@font/mm"
+                        android:gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Share"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="15dp"
+                        style="@style/TextAppearance.AppCompat.Title"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:id="@+id/feedback_menu"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="8dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/share_menu"
+                    app:layout_constraintVertical_bias="0">
+
+                    <ImageView
+                        android:padding="12dp"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/feedback"
+                        android:scaleType="centerCrop"
+                        android:layout_marginStart="20dp"/>
+
+                    <TextView android:textSize="15sp"
+                        android:fontFamily="@font/mm"
+                        android:gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Feedback"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="15dp"
+                        style="@style/TextAppearance.AppCompat.Title"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:id="@+id/contact_menu"
+                    android:focusable="true"
+                    android:clickable="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="220dp"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/feedback_menu"
+                    app:layout_constraintVertical_bias="0">
+
+                    <ImageView
+                        android:padding="12dp"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/contact_us"
+                        android:scaleType="centerCrop"
+                        android:layout_marginStart="20dp"/>
+
+                    <TextView
+                        android:textSize="15sp"
+                        android:fontFamily="@font/mm"
+                        android:gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Contact"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="15dp"
+                        style="@style/TextAppearance.AppCompat.Title"/>
+                </LinearLayout>
+
+            </android.support.constraint.ConstraintLayout>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.constraint.ConstraintLayout>

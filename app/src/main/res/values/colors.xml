@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#673AB7</color>
+    <color name="colorPrimaryDark">#673AB7</color>
+    <color name="colorAccent">#673AB7</color>
+
+    <color name="gradient_start_color">#4c84ff</color>
+    <color name="gradient_end_color">#18a3fe</color>
+
+    <color name="tab_indicator">#c0c0c0</color>
+    <color name="intro_title_color">#000000</color>
+    <color name="intro_description_color">#656565</color>
+
+    <color name="yellow">#FFC107</color>
+    <color name="orange">#fcab2a</color>
+    <color name="red">#ff3b29</color>
+    <color name="white">#ffffff</color>
+
+    <color name="guillotine_background">#444153</color>
+    <color name="guillotine_background_dark">#383547</color>
+    <color name="selected_item_color">#30d1d5</color>
+
+    <color name="style_color_primary">#2d5d82</color>
+    <color name="style_color_primary_dark">#21425d</color>
+    <color name="style_color_accent">#01bcd5</color>
+    <color name="fab_color_pressed">#007787</color>
+    <color name="fab_color_shadow">#44000000</color>
+    <color name="text_like_counter">#2b5a83</color>
+    <color name="paint_color">#dddddd</color>
+
+    <color name="button_active">@color/light_green</color>
+    <color name="lightGrey">#eeeeee</color>
+    <color name="light_blue">#1e96ff</color>
+    <color name="light_cloud">#e0ebfa</color>
+    <color name="light_fog">#d2d3da</color>
+    <color name="light_gray">#c6c6c6</color>
+    <color name="light_gray_background">#f5f5f5</color>
+    <color name="light_green">#62d76b</color>
+    <color name="light_pink">#fff8fa</color>
+    <color name="light_red">#ffd7fd</color>
+
+    <color name="duck_egg">#e4fae7</color>
+    <color name="duck_egg_blue">#f3f6fd</color>
+    <color name="dusk">#494b68</color>
+    <color name="explore_track_unfaved_tint">@color/fog</color>
+    <color name="facebook_blue">#3a579d</color>
+    <color name="faded_blue">#7a88ba</color>
+    <color name="feedback_green">#dfffd5</color>
+    <color name="fog">#b1b2be</color>
+    <color name="google_red">#ea4335</color>
+    <color name="grey">#7f8a8f</color>
+
+
+
+</resources>
